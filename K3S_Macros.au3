@@ -20,14 +20,14 @@ _CommSetDllPath("C:\m0pcb\commg.dll")
 
 HotKeySet("^!{F12}", "_Exit") ;If you press Ctrl-Shift-F12 the script will stop
 HotKeySet("+{F1}", "_ShowMacros") ;If you press SHIFT + F1, the script will show witch sites you have on witch keys
-HotKeySet("^!{F1}", "_TuneAup10Hz")
+HotKeySet("^{RIGHT}", "_TuneAup10Hz")
 #HotKeySet("^!{F2}", "_TuneAup50Hz")
 #HotKeySet("^!{F3}", "_TuneAup100Hz")
 #HotKeySet("^!{F4}", "_TuneAup200Hz")
 #HotKeySet("^!{F5}", "_TuneAup1kHz")
 #HotKeySet("^!{F6}", "_TuneAup2kHz")
 #HotKeySet("^!{F7}", "_TuneAup5kHz")
-HotKeySet("^+!{F1}", "_TuneAdwn10Hz")
+HotKeySet("^{LEFT}", "_TuneAdwn10Hz")
 #HotKeySet("^+!{F2}", "_TuneAdwn50Hz")
 #HotKeySet("^+!{F3}", "_TuneAdwn100Hz")
 #HotKeySet("^+!{F4}", "_TuneAdwn200Hz")
