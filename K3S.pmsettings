@@ -1,0 +1,42 @@
+<PowerMateDoc>
+  <settings>
+    <lastUpdateCheck>15/12/2018 08:33:42</lastUpdateCheck>
+    <showTaskbarIcon>True</showTaskbarIcon>
+  </settings>
+  <device name="PowerMate 1">
+    <settings>
+      <lastpath>\\?\hid#vid_077d&amp;pid_0410#8&amp;1ecea522&amp;0&amp;0000#{4d1e55b2-f16f-11cf-88cb-001111000030}</lastpath>
+      <globalOnly>True</globalOnly>
+      <hold>519</hold>
+      <ledBrightness>0</ledBrightness>
+      <sleepPulse>True</sleepPulse>
+      <pulse>True</pulse>
+    </settings>
+    <app name="Global Setting">
+      <action pmaction="CounterClockwiseRotate" caction="Send Keys" plugin="Send Keys">
+        <settings>
+        </settings>
+        <panel>
+          <string>Ctrl+Left</string>
+        </panel>
+      </action>
+      <action pmaction="Click" caction="Send Keys" plugin="Send Keys">
+        <panel>
+          <string>Ctrl+Up</string>
+        </panel>
+      </action>
+      <action pmaction="ClockwiseRotate" caction="Send Keys" plugin="Send Keys">
+        <settings>
+        </settings>
+        <panel>
+          <string>Ctrl+Right</string>
+        </panel>
+      </action>
+      <action pmaction="TimedClick" caction="Send Keys" plugin="Send Keys">
+        <panel>
+          <string>Ctrl+Down</string>
+        </panel>
+      </action>
+    </app>
+  </device>
+</PowerMateDoc>
