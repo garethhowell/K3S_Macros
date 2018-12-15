@@ -1,13 +1,15 @@
+#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+#AutoIt3Wrapper_Res_Description=A set of marcos to allow a Griffin Powermate to K3S control an Elecraft K3S transceiver
+#AutoIt3Wrapper_Res_Fileversion=001
+#AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
+#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
 #comments-start
 This script written by Gareth Howell (M5KVK) but based heavily on a similar one by
 Iain Kelly (M0PCB) for a ShuttlePro
 
 Send Macro commands to an ELecraft K3 Transceiver on COMPORT 18 at 38400Baud 8N1 using Key combinations, primarily for use with a Griffin Powermate.
 #comments-end
-
-
-#AutoIt3Wrapper_OutFile_X64=N
-#include "CommMG.au3"
+#include "CommMG64.au3"
 #include <String.au3>
 #include <Array.au3>
 
@@ -16,7 +18,7 @@ Global $error, $rawfreq, $freq, $mode, $baud, $comport, $apfstate, $ic
 $comport = 18
 $baud = 38400
 
-_CommSetDllPath("C:\m0pcb\commg.dll")
+_CommSetDllPath("C:\Users\gareth\OneDrive\M5KVK\K3S_Macros\commg64.dll")
 
 HotKeySet("^!{F12}", "_Exit") ;If you press Ctrl-Shift-F12 the script will stop
 HotKeySet("+{F1}", "_ShowMacros") ;If you press SHIFT + F1, the script will show witch sites you have on witch keys
